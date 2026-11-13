@@ -1,0 +1,24 @@
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# written by the code
+results/
+figures/
+tables/
+
+
+# OS / editors
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+~$*
+
+# Fig. 6a renders (© ACS, adapted with permission): kept local, not distributed
+assets/fig6a_nanodevice_*.png

@@ -1,0 +1,13 @@
+test,stat,p
+lack of fit of a straight line (F1-F4),"F(2,6) = 207.3",2.9040310990347397e-06
+H_f as a four-level factor (F1-F4),"F(3,6) = 154.1",4.57431338809361e-06
+"slope, F1-F4 (um/um)","0.075 +/- 0.180 (95% CI, 8 d.f.)",0.36776584688272546
+slope without F1,0.461 +/- 0.191 (5 d.f.),0.0015722415704431468
+slope without F2,0.053 +/- 0.158 (5 d.f.),0.43125761913396166
+slope without F3,0.105 +/- 0.257 (5 d.f.),0.34288035378524767
+slope without F4,-0.075 +/- 0.180 (5 d.f.),0.33405651692380717
+slope against the 350 um chord (not the silhouette),0.425 +/- 0.094 (8 d.f.),6.182389166786619e-06
+"mean offset F1 minus F2 (paired over chips, um)",-42.3 +/- 12.8 (2 d.f.),0.004896357071904149
+"mean offset F2 minus F3 (paired over chips, um)",+28.0 +/- 20.4 (2 d.f.),0.027583599234013996
+"mean offset F3 minus F4 (paired over chips, um)",+45.7 +/- 20.6 (2 d.f.),0.010834492213272569
+"mean offset F4 minus F5 (paired over chips, um)",+130.1 +/- 18.0 (2 d.f.),0.0010369164309716192

@@ -1,0 +1,19 @@
+setting,condition,replicate,fret
+Tube,Origami + sRNA mimic,1,0.045
+Tube,Origami + sRNA mimic,2,0.047
+Tube,Origami + sRNA mimic,3,0.04
+Tube,Origami,1,0.103
+Tube,Origami,2,0.102
+Tube,Origami,3,0.091
+Tube,Origami + random sequence,1,0.109
+Tube,Origami + random sequence,2,0.101
+Tube,Origami + random sequence,3,0.108
+Chip,Origami + sRNA mimic,1,0.048
+Chip,Origami + sRNA mimic,2,0.04
+Chip,Origami + sRNA mimic,3,0.038
+Chip,Origami,1,0.085
+Chip,Origami,2,0.08
+Chip,Origami,3,0.079
+Chip,Origami + random sequence,1,0.0861
+Chip,Origami + random sequence,2,0.085
+Chip,Origami + random sequence,3,0.0793

@@ -1,0 +1,48 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "Stereolithography-enabled multilayer soft lithographic microfluidic valve networks: analysis and figure code"
+type: software
+license: MIT
+repository-code: "https://github.com/SBMI-LAB/slapaper"
+authors:
+  - family-names: Raza
+    given-names: Muhammad Hassan
+    affiliation: "Department of Nanoengineering, North Carolina Agricultural and Technical State University"
+  - family-names: Ebrahimian
+    given-names: Mahboubeh
+    affiliation: "Department of Nanoengineering, North Carolina Agricultural and Technical State University"
+  - family-names: Olowe
+    given-names: Michael
+    affiliation: "Department of Industrial and Systems Engineering, North Carolina Agricultural and Technical State University"
+  - family-names: Aravamudhan
+    given-names: Shyam
+    affiliation: "Department of Nanoengineering, North Carolina Agricultural and Technical State University"
+  - family-names: Desai
+    given-names: Salil
+    affiliation: "Department of Industrial and Systems Engineering, North Carolina Agricultural and Technical State University"
+  - family-names: Oliveira
+    given-names: Samuel
+    affiliation: "Department of Nanoengineering, North Carolina Agricultural and Technical State University"
+  - family-names: Zadegan
+    given-names: Reza
+    affiliation: "Department of Nanoengineering, North Carolina Agricultural and Technical State University"
+preferred-citation:
+  type: article
+  title: "Stereolithography-enabled multilayer soft lithographic microfluidic valve networks"
+  journal: "Lab on a Chip (submitted)"
+  year: 2026
+  authors:
+    - family-names: Raza
+      given-names: Muhammad Hassan
+    - family-names: Ebrahimian
+      given-names: Mahboubeh
+    - family-names: Olowe
+      given-names: Michael
+    - family-names: Aravamudhan
+      given-names: Shyam
+    - family-names: Desai
+      given-names: Salil
+    - family-names: Oliveira
+      given-names: Samuel
+    - family-names: Zadegan
+      given-names: Reza
