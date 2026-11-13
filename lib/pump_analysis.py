@@ -1,7 +1,7 @@
 """
 pump_analysis.py - gravimetric characterisation of the three-valve peristaltic pump (0.5 mm valve spacing).
 
-DATA   0_5_mm_spacing.xlsx, sheets '0.5 mm spacing 0.5 bar' / '1 bar' / '1.5 bar': per ESI delay (25, 33, 48, 83, 167 ms) three replicate
+DATA   pump_gravimetry.xlsx, sheets '0.5 mm spacing 0.5 bar' / '1 bar' / '1.5 bar': per ESI delay (25, 33, 48, 83, 167 ms) three replicate
        weighings (mg, before/after N cycles) and the measured elapsed time of each run ("mm:ss:cs").  Notes sheet: weights in mg.
 WHAT CHANGED vs Pump.ipynb
   * Frequency (x axis) = what was PROGRAMMED:  f_phase = 1000 / delay_ms  (40.0, 30.3, 20.8, 12.0 Hz);  one cycle = 6 phases, so
@@ -23,7 +23,7 @@ from matplotlib.lines import Line2D
 from scipy import stats
 from ch2_style import *
 
-XLSX = './0_5_mm_spacing.xlsx'
+XLSX = './pump_gravimetry.xlsx'
 DENSITY = 0.9976          # g/mL, water ~20 C (0.5 % FD&C Yellow 5 solution assumed equal to water)
 PHASES = 6
 PRESS = {'0.5 mm spacing 0.5 bar': 0.5, '1 bar': 1.0, '1.5 bar': 1.5}

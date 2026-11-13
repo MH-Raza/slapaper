@@ -7,7 +7,7 @@ data/
 ├── Data/                                        60 profilometry CSV files
 ├── Valve data/                                  124 valve logs (125 runs with the replacement file below)
 ├── F3_C4_-_1000_millibars_valve_-_100_millibars_flow.txt   (included)
-├── 0_5_mm_spacing.xlsx                          pump gravimetry
+├── pump_gravimetry.xlsx                          pump gravimetry
 ├── Mixing data/                                 three folders, one per mixing run
 │   ├── 33 ms - Aligned_Cropped_Data/
 │   ├── 83 ms - Aligned_Cropped_Data/
@@ -60,7 +60,7 @@ data/
 
 Restarted acquisitions are handled: the last continuous record is used.
 
-## 3. Pump: `data/0_5_mm_spacing.xlsx`
+## 3. Pump: `data/pump_gravimetry.xlsx`
 
 **Used by:** Fig. 5a, b; Table S8.
 

@@ -4,7 +4,7 @@ Raw data (put them under data/ or change the paths):
     data/Data/                         60 profilometry CSV exports ('C1 CM1.csv', 'C1 CM1 PDMS.csv', ... 'F5 FM3 PDMS.csv')
     data/Valve data/                   125 valve logs ('F1 C1 500 mbar.txt', ...)
     data/F3_C4_-_1000_millibars_valve_-_100_millibars_flow.txt   replacement run for F3 x C4 at 1000 mbar
-    data/0_5_mm_spacing.xlsx           pump gravimetry
+    data/pump_gravimetry.xlsx           pump gravimetry
     data/Mixing data/                  three aligned mixing videos + stills (33, 83, 167 ms folders)
 
 If a raw-data folder is missing, the scripts that can work from the result tables use RESULTS_REFERENCE instead
@@ -19,7 +19,7 @@ DATA = os.path.join(ROOT, 'data')
 PROFILOMETRY_DIR = os.path.join(DATA, 'Data')
 VALVE_DIR = os.path.join(DATA, 'Valve data')
 VALVE_EXTRA = {('F3', 'C4', 1000): os.path.join(DATA, 'F3_C4_-_1000_millibars_valve_-_100_millibars_flow.txt')}
-PUMP_XLSX = os.path.join(DATA, '0_5_mm_spacing.xlsx')
+PUMP_XLSX = os.path.join(DATA, 'pump_gravimetry.xlsx')
 MIXING_DIR = os.path.join(DATA, 'Mixing data')
 FRET_XLSX = os.path.join(DATA, 'FRET_Chip_and_tube.xlsx')    # sheet 'FRET eff': tube E8:G10, chip U10:W12
 
